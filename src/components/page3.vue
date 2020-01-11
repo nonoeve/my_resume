@@ -43,7 +43,7 @@ export default {
         flag: true
       }, {
         name: 'Android',
-        pro: '70%',
+        pro: '80%',
         flag: true
       }, {
         name: 'PHP',
@@ -51,15 +51,15 @@ export default {
         flag: true
       }, {
         name: 'java',
-        pro: '70%',
+        pro: '75%',
         flag: true
       }]
     }
   },
   methods: {
-      dian (index) {
-          this.skills[index].flag = !this.skills[index].flag;
-      }
+    dian (index) {
+      this.skills[index].flag = !this.skills[index].flag
+    }
   }
 }
 </script>
